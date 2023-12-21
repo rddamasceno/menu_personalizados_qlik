@@ -1,0 +1,72 @@
+/* ------------- Icone que costumo usar '☰' ------------- */
+
+/* ------------- Estilizando o menu estático --------------------- */
+
+/* ------------- So trocar a informacao do Tid, ele deve ser o id de incorporacao gerado pelo qlik --------------------- */
+
+/* Alinhar itens do menu verticalmente */
+[tid="zEUM"] .qv-object-qsstatistic .center-aligned-items {
+ align-items: flex-start;
+ background-color: #003366 !important;
+ border-radius: 0px 0px 10px 0px;
+ overflow: hidden;
+ white-space: nowrap;
+}
+
+/* Ajustar espaçamento entre itens */
+[tid="zEUM"] .label {
+ padding: 15px !important;
+}
+
+/* Ajustar espaçamento do ícone com itens do menu */
+div[tid="zEUM"] [class="statistic statistic-0"] .label {
+ padding-bottom: 40px !important;
+}
+
+/* --------- Estilizando o menu dinâmico (hover) ---------------- */
+
+/* Mudar fundo dos itens do menu */
+[tid="zEUM"] .label:hover {
+ background-color: #335b84;
+ border-radius: 10px;
+ transition: 1s;
+}
+
+/* Primeira linha do menu não tem animação */
+div[tid="zEUM"] [class="statistic statistic-0"] .label:hover{
+ cursor: auto !important;
+ background-color: #003366 !important;
+}
+
+/* ------------- Removendo margens ----------------------- */
+
+/* Remover margens do grid */
+[id="grid"] {
+ left: 0px !important;
+ top: 0px !important;
+}
+
+/* Remover margem do objeto do menu */
+[tid="zEUM"] {
+ left: 0px !important;
+ top: 0px !important;
+ border: 0px !important;
+ transition: 1s;
+ z-index: 10;
+}
+
+/* Remover margem do objeto do menu */
+[tid="zEUM"] .qv-object {
+ border: 0px !important;
+}
+
+/* --------- Retraindo e expandido menu ------------------- */
+
+/* Expandir menu */
+div[tid="zEUM"]:hover{
+ height: 100% !important;
+ width: 300px !important;
+ transition: 1.5s;
+ overflow: hidden;
+ white-space: nowrap;
+}
