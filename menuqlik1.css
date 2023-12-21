@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+
+& .label {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  font-family: 'Raleway', sans-serif;
+  font-size: 80%;
+  border-left: 7px solid #333333;
+  box-sizing: border-box;
+  margin: 0 auto;
+  background-color: blue; /* Color changed to blue */
+}
+
+& .lui-icon:hover {
+  transition: all 0.6s ease-in-out;
+  transform: rotate(360deg);
+}
+
+& .label:hover {
+  border-left: 15px solid #333333;
+  background: #ff0057; /* Original color retained for hover state */
+  height: 100%;
+  transition: all 0.3s ease 0s;
+}
+
+.qv-object-nav {
+  display: none;
+}
