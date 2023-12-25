@@ -5,7 +5,7 @@
 /* ------------- So trocar a informacao do Tid, ele deve ser o id de incorporacao gerado pelo qlik --------------------- */
 
 /* Alinhar itens do menu verticalmente */
-[tid="zEUM"] .qv-object-qsstatistic .center-aligned-items {
+[tid="SEU ID GERADO PELO INCORPORAR DO QLIK"] .qv-object-qsstatistic .center-aligned-items {
  align-items: flex-start;
  background-color: #003366 !important;
  border-radius: 0px 0px 10px 0px;
@@ -14,26 +14,26 @@
 }
 
 /* Ajustar espaçamento entre itens */
-[tid="zEUM"] .label {
+[tid="SEU ID GERADO PELO INCORPORAR DO QLIK"] .label {
  padding: 15px !important;
 }
 
 /* Ajustar espaçamento do ícone com itens do menu */
-div[tid="zEUM"] [class="statistic statistic-0"] .label {
+div[tid="SEU ID GERADO PELO INCORPORAR DO QLIK"] [class="statistic statistic-0"] .label {
  padding-bottom: 40px !important;
 }
 
 /* --------- Estilizando o menu dinâmico (hover) ---------------- */
 
 /* Mudar fundo dos itens do menu */
-[tid="zEUM"] .label:hover {
+[tid="SEU ID GERADO PELO INCORPORAR DO QLIK"] .label:hover {
  background-color: #335b84;
  border-radius: 10px;
  transition: 1s;
 }
 
 /* Primeira linha do menu não tem animação */
-div[tid="zEUM"] [class="statistic statistic-0"] .label:hover{
+div[tid="SEU ID GERADO PELO INCORPORAR DO QLIK"] [class="statistic statistic-0"] .label:hover{
  cursor: auto !important;
  background-color: #003366 !important;
 }
@@ -47,7 +47,7 @@ div[tid="zEUM"] [class="statistic statistic-0"] .label:hover{
 }
 
 /* Remover margem do objeto do menu */
-[tid="zEUM"] {
+[tid="SEU ID GERADO PELO INCORPORAR DO QLIK"] {
  left: 0px !important;
  top: 0px !important;
  border: 0px !important;
@@ -56,14 +56,14 @@ div[tid="zEUM"] [class="statistic statistic-0"] .label:hover{
 }
 
 /* Remover margem do objeto do menu */
-[tid="zEUM"] .qv-object {
+[tid="SEU ID GERADO PELO INCORPORAR DO QLIK"] .qv-object {
  border: 0px !important;
 }
 
 /* --------- Retraindo e expandido menu ------------------- */
 
 /* Expandir menu */
-div[tid="zEUM"]:hover{
+div[tid="SEU ID GERADO PELO INCORPORAR DO QLIK"]:hover{
  height: 100% !important;
  width: 300px !important;
  transition: 1.5s;
